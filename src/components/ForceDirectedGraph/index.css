@@ -1,0 +1,11 @@
+.links line {
+  stroke: grey;
+}
+
+.circle-node {
+  background-color: #935BFD;
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+  position: absolute;
+}

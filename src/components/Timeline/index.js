@@ -1,7 +1,7 @@
 import React,  { Component } from 'react';
 import './index.css';
 
-export default class BusinessCard extends Component {
+export default class Timeline extends Component {
 
 	render(){
 		return (
@@ -26,10 +26,10 @@ export default class BusinessCard extends Component {
 
 }
 
-BusinessCard.propTypes = {
+Timeline.propTypes = {
 
 }
 
-BusinessCard.defaultProps = {
+Timeline.defaultProps = {
 
 }

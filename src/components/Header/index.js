@@ -24,7 +24,7 @@ export default class Header extends Component {
 				<br />
 				<div className="header-text">
 				<p>This is Danny Chew.</p>
-				<p>{"97s "}<Icon name='user' color='blue' /> {" | M\'sia"} </p>
+				<p>{"97s "}<Icon name='user' color='blue' /> {" | M'sia"} </p>
 				<div className="inline-effect">
 				<div style={{marginRight:"5px"}}>{"A"} </div>
 				<Typewriter className="type-height" words={["Computer Science", "Startup", "Photography","Videography"]}/>
