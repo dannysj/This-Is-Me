@@ -3,9 +3,43 @@
 }
 
 .circle-node {
-  background-color: #935BFD;
   border-radius: 50%;
   height: 2em;
   width: 2em;
   position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.chart-container {
+  position: relative;
+  height: 100%;
+}
+
+.central {
+  height: 5em;
+  width: 5em;
+}
+.group {
+  height: 3em;
+  width: 3em;
+}
+
+.redc {
+  background-color: #FF8484;
+}
+
+.bluec {
+  background-color: #5BD8FD;
+}
+
+.greenc {
+  background-color: #18D0BF;
+}
+
+.purplec {
+  background-color: #C178FA;
+}
+
+.yellowc {
+  background-color: #F48A6D;
 }

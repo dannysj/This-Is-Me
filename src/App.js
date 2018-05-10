@@ -31,7 +31,7 @@ class App extends Component {
               To get started, edit <code>src/App.js</code> and save to reload.
         </Card>
         <br/>
-        <Card className="card">
+        <Card className="card test">
             <FDG data={skillData} />
         </Card>
         <br/>
