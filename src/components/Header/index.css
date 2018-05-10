@@ -1,0 +1,42 @@
+
+.constraint-header {
+  margin-top: 5em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.profile-pic {
+  padding-top: 1em;
+  padding-bottom: 50px;
+}
+
+.type-height {
+
+  color: #5BFDB2;
+
+}
+
+.inline-effect {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  min-height: 40px;
+}
+.header-text {
+  font-size: 28px;
+  color: white;
+}
+
+.header-text > p {
+  margin: 0 0 0.1em;
+}
+
+@media (max-width: 767px) {
+  .header-text {
+    font-size: 20px;
+  }
+}

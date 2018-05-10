@@ -1,0 +1,21 @@
+.word-container {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  animation:
+    blink-caret 0.8s step-end infinite;
+}
+
+.type-header {
+  display: flex;
+  justify-content: center;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}

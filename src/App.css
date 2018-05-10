@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
   background-color: #162241;
@@ -25,4 +26,34 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.card {
+  height: 100px;
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  .card {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 1.5vh;
+    top: 1.5vh;
+  }
+}
+
+.header-container {
+  height: 70%;
+  width: 100%;
+}
+
+.ui-container {
+  height: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-flow: column;
+}
+.main-footer {
+  padding: 1em;
+  color: white;
 }

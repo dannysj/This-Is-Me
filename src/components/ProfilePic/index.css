@@ -6,6 +6,7 @@
   border-radius: 125px;
   margin: auto;
   flex-shrink: 0;
+
 }
 
 .pikachu {
@@ -14,11 +15,6 @@
     right: -40%;
 }
 
-.pcontent {
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-}
 
 .p_image {
     width: 200px;

@@ -2,15 +2,18 @@
 .arrowbox {
   height: 3rem;
   margin-top: 1rem;
+  position: relative;
 }
 .arrow {
-  position: relative;
+  position: absolute;
   height: 2rem;
   width: 2rem;
-  border: solid black;
+  border: solid white;
   border-width: 0 0.1rem 0.1rem 0;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+  left: 50%;
+  transform: translate(-50%, 0%) rotate(-135deg);
+  -webkit-transform: translate(-50%, 0%) rotate(-135deg);
+
 }
 
 

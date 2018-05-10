@@ -3,23 +3,6 @@ import './index.css';
 
 export default class Picture extends Component {
 
-	componentWillReceiveProps(nextProps) {
-			// update prop cycle
-	}
-
-	shouldComponentUpdate(nextProps, nextState) {
-		// default to true, but can overwrite
-	}
-
-	componentWillUpdate(nextProps, nextState) {
-		//refresh logo activated
-		//then re-render contents
-	}
-
-	componentDidUpdate(prevProps, prevState) {
-
-	}
-
 
 	constructor(props) {
 		super(props);
@@ -36,7 +19,7 @@ export default class Picture extends Component {
 
 		return (
 			<div className="image">
-				<img src={image} alt="image"/>
+				<img src={image} alt="my pic here"/>
 			</div>
 		);
 	}
