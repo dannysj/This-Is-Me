@@ -26,7 +26,12 @@ export default class ForceDirectedGraph extends Component {
 
       //Initializing force simulation
       const simulation = d3.forceSimulation()
-        .force('link', d3.forceLink().distance(100))
+        .force('link', d3.forceLink().distance((d) => {
+          if (d.source.level == 0) {
+            return 150;
+          }
+          return 50;
+        }))
         .force('charge', d3.forceManyBody())
         .force('collide', d3.forceCollide().radius(d => {
           if (d.level == 0) return 100;
@@ -84,6 +89,9 @@ export default class ForceDirectedGraph extends Component {
 
           c += colors[d.group] + ' ';
           return c;
+        })
+        .text(d => {
+          return d.name;
         })
         .call(d3.drag()
            .on('start', dragStart)
