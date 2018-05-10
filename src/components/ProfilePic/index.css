@@ -1,0 +1,39 @@
+
+.profile_image {
+  width: 200px;
+  height: 200px;
+  background-color: #536;
+  border-radius: 125px;
+  margin: auto;
+  flex-shrink: 0;
+}
+
+.pikachu {
+  position: relative;
+    bottom: 20%;
+    right: -40%;
+}
+
+.pcontent {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.p_image {
+    width: 200px;
+    height: 200px;
+    border-radius: 125px;
+    overflow: hidden;
+}
+
+.p_image > img {
+      object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .profile_image {
+    margin: auto;
+  }
+
+}

@@ -1,0 +1,189 @@
+
+.pikachu div,
+ul,
+span {
+  position: absolute;
+  margin: auto;
+  padding: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.brown {
+  background-color: #452211;
+}
+.yellow {
+  background-color: #ffd814;
+}
+.yellow-dark {
+  background-color: #e0a100;
+}
+
+.pikachu-wrapper {
+  margin: auto;
+  display: inline-block;
+  position: relative;
+  height: 180px;
+  width: 180px;
+}
+
+.pikachu-wrapper .pikachu {
+  position: absolute;
+  height: 50%;
+  width: 140px;
+}
+
+.pikachu .head {
+  bottom: auto;
+  height: 120px;
+  width: 120px;
+  z-index: 3;
+}
+
+.pikachu .head .face {
+  width: 120px;
+  height: 120px;
+  top: auto;
+  border-radius: 100%;
+  z-index: 2;
+}
+
+.face .eye {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  bottom: auto;
+  top: 20%;
+  -webkit-animation: blink 4s infinite;
+}
+
+.eye.left {
+  right: auto;
+  left: 32px;
+}
+
+.eye.right {
+  left: auto;
+  right: 32px;
+}
+
+.face .mouth {
+  text-align: center;
+  height: 10px;
+}
+
+.face .cachete {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  bottom: auto;
+  top: 38px;
+  background-color: #e64900;
+  z-index: 9;
+}
+
+.cachete.left {
+  right: auto;
+  left: 10px;
+}
+
+.cachete.right {
+  left: auto;
+  right: 10px;
+}
+
+.pikachu .head .ears {
+  width: 20px;
+  height: 90px;
+  bottom: 80%;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.ears.left {
+  right: auto;
+  left: 10px;
+  -ms-transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+}
+
+.ears.right {
+  left: auto;
+  right: 10px;
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.ears .ears-inside {
+  top: auto;
+  height: 75px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.ears.right .ears-inside {
+  position: absolute;
+  left: -50%;
+}
+
+.pikachu .pokeball {
+  height: 70px;
+  width: 130px;
+  position: relative;
+  top: 60%;
+  background: #ff2000;
+  z-index: 10;
+  border-bottom-left-radius: 65px;
+  border-bottom-right-radius: 65px;
+}
+.pokeball .whitecircle {
+  background: #fff;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+
+  top: -60px;
+}
+
+.pokeball .whitecircle .greycircle {
+  background: #eaeaea;
+  height: 15px;
+  width: 15px;
+  border-radius: 7.5px;
+}
+
+@-webkit-keyframes blink {
+  0 {
+    height: 14px;
+    top: 28px;
+  }
+  5% {
+    height: 2px;
+    top: 34px;
+  }
+  10% {
+    height: 14px;
+    top: 28px;
+  }
+  40% {
+    height: 14px;
+    top: 28px;
+  }
+  50% {
+    height: 2px;
+    top: 34px;
+  }
+  55% {
+    height: 14px;
+    top: 28px;
+  }
+  100% {
+    height: 14px;
+    top: 28px;
+  }
+}
