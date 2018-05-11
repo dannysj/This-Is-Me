@@ -23,7 +23,7 @@ export default class BusinessCard extends Component {
 					< br />
 
           <div className="detail-container">
-					<strong>{this.props.name}</strong>
+					<div>{this.props.name}</div>
 						<div className="links-container">
 						{
 							this.state.links.map((el,index) => (
