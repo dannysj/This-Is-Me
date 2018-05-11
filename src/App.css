@@ -55,6 +55,9 @@
     left: 35%;
   }
 
+  .card-title {
+    text-align: left;
+  }
 }
 
 .header-container {
@@ -107,4 +110,29 @@
 
 .test {
   height: 400px;
+}
+
+.card-title {
+  margin: 1em;
+  font-size: 25px;
+  text-align: center;
+}
+
+.first-content {
+  text-align: left;
+  font-size: 15px;
+  margin: 1em;
+}
+
+.first-content p {
+  margin-bottom: 0.5em;
+  margin-top: 0;
+}
+
+.first-content > p:nth-child(0) {
+  font-size: 20px;
+}
+
+.first-content > p:nth-child(1) {
+  font-size: 20px;
 }

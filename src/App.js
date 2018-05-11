@@ -34,10 +34,17 @@ class App extends Component {
                 <img src={bucky} alt="bucky gif" />
               </div>
             </div>
-              To get started, edit <code>src/App.js</code> and save to reload.
+            <div className="first-content">
+            <p>Hi.</p>
+            <p>{"I'm Danny."}</p>
+            <p>{"A UW-Madison Computer Science nerd."}</p>
+            <p>{"A 97s that is fighting his way to success from Malaysia."}</p>
+            <p>{"Fun fact about me: I dream big!"}</p>
+            </div>
         </Card>
         <br/>
         <Card className="card">
+          <div className="card-title">Journey otw to success</div>
           <Timeline projects={projects.projects} pics={[s1,s3,s4,s2]} />
         </Card>
         <br/>
