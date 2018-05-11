@@ -5,11 +5,17 @@ import Card from './components/Card';
 import Header from './components/Header';
 import BusinessCard from './components/BusinessCard';
 import Arrow from './components/Arrow';
+import Timeline from './components/Timeline';
 import './Semantic/semantic.min.css';
 import pic1 from './assets/photos/pp.jpg';
 import bucky from './assets/photos/bucky.gif';
-import FDG from './components/ForceDirectedGraph';
-import skillData from './assets/skill.json';
+import s1 from './assets/photos/1.jpg';
+import s2 from './assets/photos/2.gif';
+import s3 from './assets/photos/3.png';
+import s4 from './assets/photos/4.png';
+import projects from './assets/projects.json';
+import links from './assets/links.json';
+
 
 class App extends Component {
   render() {
@@ -31,11 +37,11 @@ class App extends Component {
               To get started, edit <code>src/App.js</code> and save to reload.
         </Card>
         <br/>
-        <Card className="card test">
-            <FDG data={skillData} />
+        <Card className="card">
+          <Timeline projects={projects.projects} pics={[s1,s3,s4,s2]} />
         </Card>
         <br/>
-        <BusinessCard profile_pic={pic1}  name={"Danny Chew"} />
+        <BusinessCard profile_pic={pic1} links={links.links} name={"Danny Chew"} />
 
         <footer className="main-footer">
           <Container>

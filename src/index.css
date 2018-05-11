@@ -9,10 +9,6 @@ body {
   font-family: 'Avenir-Book' !important;
 }
 
-#root {
-  height: 100%;
-}
-
 body, html {
   height: auto !important;
 }

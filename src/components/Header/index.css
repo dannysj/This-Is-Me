@@ -10,7 +10,10 @@
 
 .profile-pic {
   padding-top: 1em;
-  padding-bottom: 50px;
+  height: 50%;
+  padding-bottom: 2em;
+  display: flex;
+  margin-bottom: 3em;
 }
 
 .type-height {
@@ -38,5 +41,8 @@
 @media (max-width: 767px) {
   .header-text {
     font-size: 20px;
+  }
+  .profile-pic {
+    margin-bottom: 3em;
   }
 }

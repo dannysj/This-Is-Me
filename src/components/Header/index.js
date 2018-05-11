@@ -3,6 +3,8 @@ import './index.css';
 import ProfilePic from '../ProfilePic';
 import Typewriter from '../Typewriter';
 import { Icon } from 'semantic-ui-react';
+
+
 export default class Header extends Component {
 
 	constructor(props) {

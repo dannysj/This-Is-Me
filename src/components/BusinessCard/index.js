@@ -1,7 +1,15 @@
 import React,  { Component } from 'react';
 import './index.css';
-
+import { Icon } from 'semantic-ui-react';
 export default class BusinessCard extends Component {
+
+	constructor(props) {
+		super(props);
+		this.state = {
+			links: this.props.links,
+			classes: ["bluei", "greeni", "redi"]
+		}
+	}
 
 	render(){
 		return (
@@ -12,13 +20,27 @@ export default class BusinessCard extends Component {
 
           </div>
 
+					< br />
 
-          <div><strong>{this.props.name}</strong></div>
+          <div className="detail-container">
+					<strong>{this.props.name}</strong>
+						<div className="links-container">
+						{
+							this.state.links.map((el,index) => (
+								<a href={el.link}><div className="circle-icon">
+										<Icon className={this.state.classes[index]} circular={true} name={el.name} />
+									</div>
+								</a>
+							))
+						}
+						</div>
+					</div>
 
         </div>
-        <div className="connect-circle">
+        <a href="mailto:schew2@wisc.edu?subject=Hello There"><div className="connect-circle">
             <div>Connect</div>
           </div>
+					</a>
       </div>
 
 		);

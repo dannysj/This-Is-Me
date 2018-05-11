@@ -28,7 +28,7 @@ export default class ForceDirectedGraph extends Component {
       const simulation = d3.forceSimulation()
         .force('link', d3.forceLink().distance((d) => {
           if (d.source.level == 0) {
-            return 150;
+            return 180;
           }
           return 50;
         }))

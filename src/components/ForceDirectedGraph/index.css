@@ -1,29 +1,31 @@
 .links line {
-  stroke: grey;
+  stroke: clear;
 }
 
 .circle-node {
   border-radius: 50%;
-  height: 3.5em;
-  width: 3.5em;
+  height: 3.8em;
+  width: 3.8em;
   position: absolute;
   transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 10px;
+  font-size: 12px;
   line-height: normal;
+
 }
 
 .chart-container {
-  position: relative;
   height: 100%;
+  z-index: 10;
 }
 
 .central {
   height: 5em;
   width: 5em;
+  color: rgba(255, 255, 255, 0);
 }
 .group {
   height: 4em;

@@ -1,0 +1,8 @@
+{
+  "projects": [
+    {"title": "Solve!", "text": "A \"skill set endorsement app\" that allows companies to connect with problem-solvers and idea pitchers", "link":"https://dannysj.github.io/This-Is-Me-old/" },
+    {"title": "Help!", "text": "\"Help!\" works as a Uber App to connect hospital and nearby medical helpers and the victims in a fast and reliable way by sending current locations & injured position for early treatment.",  "link":"https://github.com/dannysj/secretawesomeintelligent" },
+    {"title": "EatUrPills", "text": "EatUrPills scans the description of the medical intake with your phone's camera and automatically create medical intakes reminder in your phone's calendar app. This app was created in HackIllinois 2018.", "link":"https://github.com/dannysj/helpapp"  },
+    {"title": "Algobot", "text": "AlgoBot is a algorithm game app that guides player in correctly tracing the algorithm (such as Dijkstra's algorithm, Quick Sort, BFS, DFS) with the help of graphic visualization." , "link":"https://github.com/dannysj/algogame"}
+  ]
+}

@@ -4,10 +4,10 @@
   margin-bottom: 0;
   left: 50%;
   transform: translate(-50%, 0%);
-  height: 40px;
-  width: 80px;
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
+  height: 50px;
+  width: 100px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
   background-color: #001BB1;
   color: #FFF;
   text-align: center;
@@ -17,13 +17,13 @@
 
 .connect-circle > * {
   margin: auto;
-  margin-top: 1em;
+  margin-top: 1.5em;
 
 }
 
 .mentor-container {
-  width: 50%;
-  height: 14em;
+  width: 500px;
+  height: 250px;
   left: 50%;
   transform: translate(-50%, 0%);
   margin-top: 30px;
@@ -35,8 +35,14 @@
 }
 
 @media (max-width: 767px) {
-  .mentor-container  {
-    width: 80%;
+
+  .mentor-container {
+      width: 25em;
+      height: 13em;
+  }
+  .mentor-picture {
+    height: 80px;
+    width: 80px;
   }
 }
 
@@ -44,6 +50,7 @@
   display: flex;
   width: 100%;
   height: 100%;
+  justify-content: space-around;
 }
 
 .mentor-profile {
@@ -57,8 +64,8 @@
 
 .mentor-picture {
   border-radius: 50%;
-  height: 6em;
-  width: 6em;
+  height: 120px;
+  width: 120px;
 }
 
 .vertical-divider {
@@ -76,4 +83,66 @@
   flex-direction: column;
   justify-content: center;
   height: 80%;
+}
+
+.detail-container {
+  width: 50%;
+  display:flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.links-container {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  min-height: 50px;
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.circle-icon {
+  margin-left: 0.25em;
+  margin-right:0.25em;
+  font-size: 20px;
+}
+
+.bluei {
+  color: white;
+  background-color: #1489FF;
+}
+
+.redi {
+  background-color: #FF533C;
+  color: white;
+}
+
+.greeni {
+  background-color: #00CE8F;
+  color: white;
+}
+
+.bluei:hover {
+  color:#1489FF;
+  background-color: white;
+}
+
+.greeni:hover {
+  color:#00CE8F;
+  background-color: white;
+}
+
+.redi:hover {
+  color:#FF533C;
+  background-color: white;
+}
+
+.detail-container strong {
+  font-size: 20px;
 }

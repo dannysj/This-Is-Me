@@ -1,0 +1,118 @@
+.timeline {
+    line-height: 1.4em;
+    list-style: none;
+    margin: 1em;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+}
+
+.timeline-centered {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 2em;
+}
+
+@media (max-width: 767px) {
+  .timeline-desc {
+    margin-right: 2em;
+    margin-left: 2em;
+  }
+}
+
+@media (min-width: 768px) {
+  .timeline-marker {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50% !important;
+      width: 15px;
+      transform: translate(-50%,0) !important;
+      height: 100%;
+
+  }
+
+  .timeline > .timeline-item:nth-child(odd) .timeline-info {
+    float: left;
+    text-align: right;
+    padding-right: 2.5em;
+          width: 50%;
+  }
+
+  .timeline > .timeline-item:nth-child(odd) .timeline-desc {
+    float: right;
+    text-align: left;
+    padding-left: 2.5em;
+          width: 50%;
+  }
+
+  .timeline > .timeline-item:nth-child(even) .timeline-info {
+    float: right;
+    text-align: left;
+    padding-left: 2.5em;
+          width: 50%;
+  }
+  .timeline > .timeline-item:nth-child(even) .timeline-desc {
+    float: left;
+    text-align: right;
+    padding-right: 2.5em;
+    width: 50%;
+  }
+
+}
+.timeline-marker {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15px;
+    height: 100%;
+}
+
+.timeline-marker:before {
+    background: #FF6B6B;
+    border: 3px solid transparent;
+    border-radius: 100%;
+    content: "";
+    display: block;
+    height: 15px;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 15px;
+    /*transition: background 0.3s ease-in-out, border 0.3s ease-in-out;*/
+  }
+
+  .timeline-marker:not(.period):after {
+    content: "";
+    width: 3px;
+    background: #CCD5DB;
+    display: block;
+    position: absolute;
+    top: 24px;
+    bottom: 0;
+    left: 6px;
+}
+
+.timeline-desc {
+  text-align: left;
+  padding-bottom: 2em;
+}
+.timeline-desc .title {
+  font-size: 25px;
+  margin-bottom: 0.5em;
+}
+
+.timeline-desc .title a{
+  margin-left: 1em;
+}
+
+.timeline-desc .description {
+  font-size: 14px;
+}
