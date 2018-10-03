@@ -111,6 +111,12 @@
   justify-content: center;
 }
 
+.timeline-desc .date {
+  font-size: 12px;
+  color: 'gray';
+  margin-bottom: 0.5em;
+}
+
 .timeline-desc .title a{
   margin-left: 1em;
   margin-right: 1em;
