@@ -13,6 +13,8 @@ import s1 from './assets/photos/1.jpg';
 import s2 from './assets/photos/2.gif';
 import s3 from './assets/photos/3.png';
 import s4 from './assets/photos/4.png';
+import s5 from './assets/photos/5.gif';
+import s6 from './assets/photos/6.gif';
 import projects from './assets/projects.json';
 import links from './assets/links.json';
 
@@ -37,15 +39,16 @@ class App extends Component {
             <div className="first-content">
             <p>Hi.</p>
             <p>{"I'm Danny."}</p>
-            <p>{"A UW-Madison Computer Science nerd."}</p>
-            <p>{"A 97s that is fighting his way to success from Malaysia."}</p>
+            <p>{"A 97s UW-Madison Computer Science undergraduate,"}</p>
+            <p>{"\twho is also fighting his way to success from Malaysia."}</p>
+            <p>{"Always love to make things \"inforactive\" (informative + interactive)!"}</p>
             <p>{"Fun fact about me: I dream big!"}</p>
             </div>
         </Card>
         <br/>
         <Card className="card">
-          <div className="card-title">Journey otw to success</div>
-          <Timeline projects={projects.projects} pics={[s1,s3,s4,s2]} />
+          <div className="card-title">{"Danny's Journey to Success"}</div>
+          <Timeline projects={projects.projects} pics={[s1,s3,s4,s2,s5,s6]} />
         </Card>
         <br/>
         <BusinessCard profile_pic={pic1} links={links.links} name={"Danny Chew"} />
