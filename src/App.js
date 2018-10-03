@@ -48,7 +48,7 @@ class App extends Component {
         <br/>
         <Card className="card">
           <div className="card-title">{"Danny's Journey to Success"}</div>
-          <Timeline projects={projects.projects} pics={[s1,s3,s4,s2,s5,s6]} />
+          <Timeline projects={projects.projects} pics={[s1,s3,s4,s2,s6, s5]} />
         </Card>
         <br/>
         <BusinessCard profile_pic={pic1} links={links.links} name={"Danny Chew"} />

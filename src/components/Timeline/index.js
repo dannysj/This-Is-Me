@@ -12,6 +12,7 @@ export default class Timeline extends Component {
       pics: this.props.pics,
       length: this.props.pics.length,
       texts: this.props.projects,
+      date: this.props.date
     }
   }
 
@@ -26,6 +27,7 @@ export default class Timeline extends Component {
               <div className="timeline-desc">
                 <div className="title">{this.state.texts[index].title}
                 <a href={this.state.texts[index].link}><Icon name='github' /> </a>
+                <div className="title">{this.state.texts[index].date}</div>
                 </div>
                 <div className="description">{this.state.texts[index].text}</div>
               </div>

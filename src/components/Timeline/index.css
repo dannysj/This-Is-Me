@@ -16,7 +16,7 @@
 
 .timeline-item {
   position: relative;
-  padding-bottom: 2em;
+  padding-bottom: 5em;
 }
 
 @media (max-width: 767px) {
@@ -107,10 +107,13 @@
 .timeline-desc .title {
   font-size: 25px;
   margin-bottom: 0.5em;
+  display: flex;
+  justify-content: center;
 }
 
 .timeline-desc .title a{
   margin-left: 1em;
+  margin-right: 1em;
 }
 
 .timeline-desc .description {

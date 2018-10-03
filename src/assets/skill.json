@@ -9,8 +9,10 @@
     {"name": "React-Native", "level": 2, "group": 3 },
     {"name": "Python", "level": 1, "group": 4 },
     {"name": "C++", "level": 2, "group": 2 },
-    {"name": "ML", "level": 1, "group": 5 }
-
+    {"name": "ML", "level": 1, "group": 5 },
+    {"name": "GO", "level": 1, "group": 6},
+    {"name": "node.js", "level": 2, "group": 6},
+    {"name": "SQL", "level": 1, "group": 7}
   ],
   "links": [
     { "target": 1, "source": 0 },
@@ -21,6 +23,9 @@
     { "target": 6, "source": 3 },
     { "target": 7, "source": 0 },
     { "target": 8, "source": 2 },
-    { "target": 9, "source": 0 }
+    { "target": 9, "source": 0 },
+    { "target": 10, "source": 0 },
+    { "target": 11, "source": 10 },
+    { "target": 12, "source": 0 }
   ]
 }

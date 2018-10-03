@@ -9,7 +9,7 @@ export default class ForceDirectedGraph extends Component {
 		// equivalent to getInitialState() { return {}; }
 		this.state = {
       data: this.props.data,
-      colors: ["","redc","greenc","bluec","yellowc","purplec"]
+      colors: ["","redc","greenc","bluec","yellowc","purplec","greenc","bluec"]
 		}
 	}
 
